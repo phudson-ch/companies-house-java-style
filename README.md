@@ -6,7 +6,7 @@ To use the Companies House Java code style settings:
 2) Add this repository as a read-only source in Preferences → Tools → Settings Repository.
 3) Check that the CompaniesHouseStyle scheme is selected in Preferences -> Editor -> Code Style -> Java.
 
-BTW: if you have an SSH error synchonizing to your personal GitHub settings repository, you may need to convert your 
+BTW: if you have an SSH error synchonizing to your personal GitHub settings repository, you may need to convert [take a backup first] your 
 ed25519 SSH private key to PEM format using:
 
 `ssh-keygen -p -f <ed25519-file> -m pem -P passphrase -N passphrase`
